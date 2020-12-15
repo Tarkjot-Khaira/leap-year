@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+h1 {
+    text-align: center;
+}
+
+:root {
+    --primary-color: #312E81;
+    --txt-color: white;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+    background-color: var(--primary-color);
+    color: var(--txt-color);
+}
+
+#input-year {
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    font-size: larger;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    font-family: inherit;
+}
+
+#btn-check {
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: medium;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    background-color: white;
+    color: var(--primary-color);
+}
+
+#div-output {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
